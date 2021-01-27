@@ -3,6 +3,7 @@ require('dotenv').config();
 //Formular das cores
 // To change a color its 31 + (HEX Color Code) + 00F00F + checksum(sum of all bytes % 256) ei: 3100FF0000F00F2F
 cores = {
+    'off'    : '71240fa4',
     'white'  : '31ffffff00000f3d',
     'blue'   : '310000ff00f00f2f',
     'red'    : '31ff000000f00f2f',
